@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home - BBC News</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+  <style>
+    #header{
+      margin:auto;
+      width:976px;
+      height:40px;
+    }
+
+    #site-logo{
+      padding:8px;
+      border-right:1px solid #CCCCCC;
+    }
+
+   #sign-in{
+      display:inline-block;
+      vertical-align: top;
+      padding-top:10px;
+      padding-left:7px;
+      padding-right:80px;
+      border-right:1px solid #CCCCCC;
+      padding-bottom: 8px;
+      color:#333;
+      font-weight:bold;
+   }
+
+   #sign-in:hover {
+    border-bottom:4px solid blue;
+   }
+
+
+  #sign-in span{
+    position: relative;
+    bottom:4px;
+  }
+
+ #header a{
+   display:inline-block;
+   vertical-align: top;
+   padding-top:15px;
+   padding-left:7px;
+   padding-right:7px;
+   border-right:1px solid #CCCCCC;
+   padding-bottom: 8px;
+   text-decoration:none;
+   color:#333;
+   font-weight:bold;
+ }
+
+ .news-menu-item:hover {
+  border-bottom:4px solid #921;
+ }
+
+ .sport-menu-item:hover {
+  border-bottom:4px solid yellow;
+ }
+
+ .weather-menu-item:hover {
+  border-bottom:4px solid lightblue;
+ }
+
+ .shop-menu-item:hover {
+  border-bottom:4px solid blue;
+ }
+
+ .common-menu-item:hover {
+  border-bottom:4px solid #262626;
+ }
+
+#header  #search-box{
+  position: relative;
+  bottom: 15px;
+  background-color: #E4E4E4;
+  border: none;
+  height: 20px;
+  width: 150px;
+ }
+
+ #search-icon {
+   background: url('images/search-lense.png') no-repeat;
+   cursor: pointer;
+   width: 25px;
+   height: 25px;
+   border: none;
+   display: inline-block;
+   position: relative;
+   bottom: 5px;
+ }
+
+ #header .more {
+  width:120px;
+ }
+
+ #page-title{
+   height:70px;
+   background-color: #BB1919;
+   color:#FFF;
+   width:100%;
+ }
+
+ .page-title-txt {
+   font-size:45px;
+   font-family:Verdana, Arial, serif, "Times New Roman", Times ;
+   margin:auto;
+   width:976px;
+   padding-top:10px;
+ }
+
+ #page-menu-bar{
+   background-color: #A91717;
+   width:100%;
+   height:35px;
+ }
+
+ #page-menu-bar #container{
+   width:976px;
+   margin:auto;
+   padding-top:10px;
+ }
+
+ #page-menu-bar #container a{
+      text-decoration: none;
+       color: #FFF;
+       border-right: 1px solid gray;
+       font-family: arial;
+       font-size: 14px;
+       height: 20px;
+       display: block;
+       float: left;
+       padding-left: 10px;
+       padding-right: 10px;
+       padding-top: 2px;
+ }
+
+ #page-menu-bar #container a:hover{
+   border-bottom:4px solid #FFF;
+ }
+
+ #content {
+  height:400px;
+  margin:auto;
+  width:976px;
+ }
+
+ #content #left{
+   width:73%;
+   height:100%;
+   float:left;
+ }
+
+ #content #right{
+    width:25%;
+    height:100%;
+    float:right;
+ }
+
+#main-news {
+  border-bottom:1px solid #CCCCCC;
+  overflow:auto;
+  padding-bottom:30px;
+}
+
+#main-news #news-content{
+  float:left;
+  width:300px;
+ }
+
+#main-news img {
+  float:right;
+}
+
+.news-heading {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: arial;
+}
+
+.news-text {
+  font-family: arial;
+  font-size:14px;
+  color: rgb(100,100, 100);
+}
+  </style>
+</head>
+
+<body>
+  <div id="main">
+
+  <div id="header">
+    <img id="site-logo" src="images/bbc-blocks-dark.png"/>
+    <div id="sign-in">
+      <img src="images/sign-in.png"/>
+      <span>Sign in</span>
+    </div>
+    <a href="#news" class="news-menu-item">News</a>
+    <a href="#sport" class="sport-menu-item">Sport</a>
+    <a href="#weather" class="weather-menu-item">Weather</a>
+    <a href="#shop" class="shop-menu-item">Shop</a>
+    <a href="#earth" class="common-menu-item">Earth</a>
+    <a href="#travel" class="common-menu-item">Travel</a>
+    <a href="#more" class="common-menu-item more">More</a>
+    <input type="text" id="search-box"/>
+    <button id="search-icon"></button>
+  </div>
+  <div id="page-title">
+    <div class="page-title-txt">News</div>
+  </div>
+  <div id="page-menu-bar">
+    <div id="container">
+      <a href="#home"><span>Home</span></a>
+      <a href="#video"><span>Video</span></a>
+      <a href="#world"><span>World</span></a>
+      <a href="#world"><span>World</span></a>
+      <a href="#us"><span>US & Canada</span></a>
+      <a href="#uk"><span>UK</span></a>
+      <a href="#business"><span>Business</span></a>
+      <a href="#tech"><span>Tech</span></a>
+      <a href="#science"><span>Science</span></a>
+      <a href="#eta"><span>Entertainment & Arts</span></a>
+      <a href="#health"><span>Health</span></a>
+      <a href="#more"><span>More</span></a>
+    </div>
+  </div>
+  <div id="content">
+    <div id="right">
+
+    </div>
+    <div id="left">
+      <div id="main-news">
+          <a class="news-heading" href="">FLASH NEWS: 'Serious' hurricane sparks US evacuations</a>
+          <div id="news-content">
+            <div class="news-text">
+              Hundreds of thousands of people in Florida
+              and South Carolina have been told to evacuate
+              as Hurricane Matthew churns towards the US east coast.
+            </div>
+          </div>
+          <img src="images/main-news.jpg" width="400px" height="227px"/>
+      </div>
+      <div id="news-sec1"></div>
+      <div id="news-sec2"></div>
+
+    </div>
+  </div>
+  </div>
+</body>
+</html>
